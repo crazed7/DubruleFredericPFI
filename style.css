@@ -209,8 +209,10 @@ div.marchandise div a:hover{
     background-color: rgba(148, 16, 16, 0.5);;
 }
 div.video p{
+    display: block;
    margin: 0;
    width: 300px;
+   height: 3em;
 }
 p a{
     display: inline;
@@ -348,6 +350,7 @@ div.about img{
     div.video iframe{
         height: 100%;
         margin-bottom: 10px;
+        display: block;
     }
     div.audio{
         margin-left: 20px;
