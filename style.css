@@ -181,8 +181,8 @@ div.video{
     height: 350px;
 }
 div.contenu div.video iframe{
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     margin: 0;  
     z-index: 5;
 }
@@ -350,14 +350,12 @@ div.about img{
         margin-bottom: 10px;
     }
     div.video{
-        display: block;
+        display: inline-block;
         margin-left: 20px;
+        margin-right: 20px;
+        width: 90%;
     }
-    div.video iframe{
-        height: 100%;
-        margin-bottom: 10px;
-        display: block;
-    }
+
     div.audio{
         margin-left: 20px;
     }
