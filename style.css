@@ -184,6 +184,7 @@ div.contenu div.video iframe{
     height: 90%;
     width: 90%;
     margin: 0;  
+    z-index: 5;
 }
 div.marchandise div{
     grid-column: span 2;
