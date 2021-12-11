@@ -48,7 +48,6 @@ ul.sousMenu li{
     width: 100%;
     background-color: rgb(148, 16, 16);
     font-size: 1em;
-
 }
 div.doaaHome{
     display: inline-block;
@@ -59,6 +58,13 @@ div.doaaHome{
     background-color: rgb(148, 16, 16);
     border-bottom: solid black 1px;
     border-top: solid black 1px;
+}
+div.doaaHome a {
+    display: flex;
+    justify-content: center;
+}
+div.doaaHome a img.dreams{
+    margin-top: 10px;
 }
 div.doaaHome:hover{
     background-color: rgba(148, 16, 16,0.5);
@@ -262,6 +268,9 @@ div.about img{
         margin-right: auto;
         display: flex;
         justify-content: center;
+    }
+    div.doaaHome a img.dreams{
+        margin-top: 0px;
     }
     div{
         width: 100%;
