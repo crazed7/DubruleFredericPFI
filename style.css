@@ -26,7 +26,7 @@ ul.sousMenu{
     position: relative;
     right: 1px;
     display: none;
-    z-index: +1;
+    z-index: +6;
 }
 ul.sousMenu li{
     margin: 0;
@@ -326,7 +326,13 @@ div.about img{
     }
     div.marchandise div{
         display: inline-block;
-        width:300px ;
+
+    }
+    div.marchandise div a{
+        display: inline-block;
+        height: 20px;
+        line-height: 20px;
+        width: 230px;
     }
     div.contenu{
         display: block;
